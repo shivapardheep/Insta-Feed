@@ -225,7 +225,7 @@ class _FeedCardState extends State<FeedCard>
             clipBehavior: Clip.none,
             children: [
               Container(
-                height: isExpanded ? 500 : 300,
+                height: isExpanded ? null : 300,
                 padding: EdgeInsetsGeometry.symmetric(
                   vertical: 16,
                   horizontal: 12,
