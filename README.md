@@ -1,16 +1,16 @@
-# insta_news
+# Clone the repository
+git clone https://github.com/shivapardheep/Insta-Feed
 
-A new Flutter project.
+# Navigate to project
+cd Insta-Feed-main
 
-## Getting Started
+# Install dependencies
+flutter pub get
 
-This project is a starting point for a Flutter application.
+# Run the app
+flutter run
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
