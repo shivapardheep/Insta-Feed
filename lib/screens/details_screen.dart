@@ -515,6 +515,8 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           ],
                         ),
                       ),
+                      SizedBox(width: 18),
+
                       Expanded(
                         flex: 1,
                         child: Column(
