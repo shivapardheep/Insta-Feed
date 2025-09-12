@@ -604,66 +604,42 @@ class _DetailsScreenState extends State<DetailsScreen> {
                                   ),
                                   SizedBox(height: 4),
 
-                                  FittedBox(
-                                    child: Container(
-                                      padding: EdgeInsetsGeometry.symmetric(
-                                        vertical: 6,
-                                        horizontal: 10,
+                                  Row(
+                                    children: [
+                                      SvgPicture.asset(
+                                        "assets/icons/i.svg",
+                                        height: 14,
+                                        color: Color(0xffAAAAAA),
                                       ),
-                                      margin: EdgeInsets.only(bottom: 4),
-                                      decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(6),
-                                        color: Color(0xffF5F6FB),
+                                      SizedBox(width: 4),
+                                      Text(
+                                        "500k -1M+",
+                                        style: const TextStyle(
+                                          fontSize: 10,
+                                          fontWeight: FontWeight.w700,
+                                          color: Color(0xffAAAAAA),
+                                        ),
                                       ),
-                                      child: Row(
-                                        children: [
-                                          SvgPicture.asset(
-                                            "assets/icons/i.svg",
-                                            height: 14,
-                                          ),
-                                          SizedBox(width: 4),
-                                          Text(
-                                            "500k -1M+",
-                                            style: const TextStyle(
-                                              fontSize: 10,
-                                              fontWeight: FontWeight.w700,
-                                              color:
-                                                  AppColors.secondaryTextColor,
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
+                                    ],
                                   ),
-                                  FittedBox(
-                                    child: Container(
-                                      padding: EdgeInsetsGeometry.symmetric(
-                                        vertical: 6,
-                                        horizontal: 10,
+                                  SizedBox(height: 4),
+                                  Row(
+                                    children: [
+                                      SvgPicture.asset(
+                                        "assets/icons/i.svg",
+                                        height: 14,
+                                        color: Color(0xffAAAAAA),
                                       ),
-                                      margin: EdgeInsets.only(bottom: 4),
-                                      decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(6),
-                                        color: Color(0xffF5F6FB),
+                                      SizedBox(width: 4),
+                                      Text(
+                                        "500k -1M+",
+                                        style: const TextStyle(
+                                          fontSize: 10,
+                                          fontWeight: FontWeight.w700,
+                                          color: Color(0xffAAAAAA),
+                                        ),
                                       ),
-                                      child: Row(
-                                        children: [
-                                          SvgPicture.asset(
-                                            "assets/icons/i.svg",
-                                          ),
-                                          SizedBox(width: 4),
-                                          Text(
-                                            "10k - 100k",
-                                            style: const TextStyle(
-                                              fontSize: 10,
-                                              fontWeight: FontWeight.w700,
-                                              color:
-                                                  AppColors.secondaryTextColor,
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
+                                    ],
                                   ),
                                 ],
                               ),
