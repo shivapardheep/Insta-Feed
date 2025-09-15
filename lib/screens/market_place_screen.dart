@@ -421,7 +421,9 @@ class _FeedCardState extends State<FeedCard>
                                   SvgPicture.asset("assets/icons/category.svg"),
                                   SizedBox(width: 4),
                                   Text(
-                                    "${widget.data.requestDetails?.categories!.join(', ') ?? 0}",
+                                    (widget.data.requestDetails?.categories
+                                            ?.join(', ')) ??
+                                        'Book Authors, Working Professionals',
                                     style: TextStyle(
                                       fontSize: 11,
                                       fontWeight: FontWeight.w700,
